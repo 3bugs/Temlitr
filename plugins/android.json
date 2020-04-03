@@ -1,0 +1,62 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-androidx": {
+      "PACKAGE_NAME": "com.app.temlitr"
+    },
+    "cordova-plugin-device-orientation": {
+      "PACKAGE_NAME": "com.app.temlitr"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.app.temlitr"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.app.temlitr"
+    },
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "com.app.temlitr"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.app.temlitr"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.app.temlitr"
+    },
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "com.app.temlitr"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.app.temlitr"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.app.temlitr"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.app.temlitr"
+    },
+    "cordova-plugin-androidx-adapter": {
+      "PACKAGE_NAME": "com.app.temlitr"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.app.temlitr"
+    },
+    "cordova-plugin-console": {
+      "PACKAGE_NAME": "com.app.temlitr"
+    },
+    "cordova.plugins.diagnostic": {
+      "ANDROID_SUPPORT_VERSION": "28.+",
+      "PACKAGE_NAME": "com.app.temlitr"
+    }
+  },
+  "dependent_plugins": {
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "com.app.temlitr"
+    }
+  }
+}
