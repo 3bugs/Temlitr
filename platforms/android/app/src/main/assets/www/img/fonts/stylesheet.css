@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'DB Helvethaica X Reg';
+    src: url('DBHelvethaicaX-Reg.woff2') format('woff2'),
+        url('DBHelvethaicaX-Reg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

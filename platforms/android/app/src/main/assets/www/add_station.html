@@ -1,0 +1,103 @@
+<!-- We don't need a full layout in this file because this page will be parsed with Ajax. -->
+
+<!-- Top Navbar-->
+<div class="navbar">
+    <div class="navbar-inner">
+        <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
+        <div class="left">
+            <a href="#" class="link icon-only open-panel"><i class="icon icon-bars"></i></a>
+            <span class="history_name">Add Station</span>
+        </div>
+            <!--<div class="center sliding">Awesome App</div>-->
+        <div class="right">
+            <!--<img src="img/search-icon.png" width="50%">-->
+        </div>
+    </div>
+</div>
+<div class="pages">
+    <div data-page="add_station" class="page">
+        <div class="page-content">
+            <div id="add_list_station" class="block">
+                
+                <form id="add_station_form" class="t_form">
+                    
+                    <div id="company_list"></div>
+                    
+                    <div id="sel_brand" class="row">
+                        <div class="col-100">
+                            <label for="select-choice-1" class="select"><span class="text-menu">เลือกบริษัท :</span></label>
+                        </div>
+                    </div>
+                
+                    <div id="sel_type" class="row">
+                        <div class="col-100">
+                            <label for="select-choice-2" class="select"><span class="text-menu">ชนิดน้ำมัน :</span></label>
+                        </div>
+                    </div>
+                    
+                    <div id="oil_type" class="row">
+                        <div class="col-100">
+                            <label for="select-choice-2" class="select"><span class="text-menu">ประเภทสถานี :</span></label>
+                        </div>
+                    </div>
+                    
+                    <div id="sel_station" class="row">
+                        <div class="col-100">
+                            <label for="select-choice-3" class="select"><span class="text-menu">มาตรฐานสถานี :</span></label>
+                        </div>
+                    </div>
+                        
+                    <div id="store_type" class="row">
+                        <div class="col-100">
+                            <label for="select-choice-4" class="select"><span class="text-menu">ร้านค้า :</span></label>
+                        </div>
+                    </div>
+                        
+                    <div id="atm_list" class="row">
+                            <div class="col-100">
+                                <label for="select-choice-5" class="select"><span class="text-menu">ATM :</span></label>
+                            </div>
+                    </div>
+                    
+                    <div id="getLocation" class="row">
+                        <div class="col-100">
+                            <label for="select-choice-6" class="select"><span class="text-menu">lattitude :</span></label>
+                            <input id="lat" type="text" name="latitude" class="text_input" value="" placeholder="latitude" >
+                        </div>
+                        <div class="col-100">
+                            <label for="select-choice-7" class="select"><span class="text-menu">longtitude :</span></label>
+                            <input id="lon" type="text" name="longitude" class="text_input" value="" placeholder="longtitude" >
+                            <button class="col button button-small get_lo_button fb_button" type="button">Get Location</button>
+                        </div>
+                        
+                        <div class="col-100">
+                            <label for="select-choice-8" class="select"><span class="text-menu">Name :</span></label>
+                            <input id="add_station_name" type="text" name="name" class="text_input" value="" placeholder="Station Name" >
+                            
+                        </div>
+                        
+                        <div class="col-100">
+                            
+                            <label for="select-choice-9" class="select"><span class="text-menu">Tel :</span></label>
+                            <input id="add_station_tel" type="text" name="tel" class="text_input" value="" placeholder="Station Tel" >
+                        </div>
+                        
+                        <div class="col-100">
+                            
+                            <label for="select-choice-10" class="select"><span class="text-menu">Description</span></label>
+                            <input id="add_station_detail" type="text" name="description" class="text_input" value="" placeholder="Station Detail" >
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="row">
+                        <div class="col-100">
+                            <button class="col button button-small add_station_button" type="button">Add Station</button>
+                        </div>    
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</div>
